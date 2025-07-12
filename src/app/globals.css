@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #000000;
+  --background: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --primary: #ea580c;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6;
+  --secondary-foreground: #000000;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --accent: #f3f4f6;
+  --accent-foreground: #000000;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #e5e7eb;
+  --input: #ffffff;
+  --ring: #ea580c;
+}
+
+body {
+  color: #000000;
+  background: #ffffff;
+  font-weight: 500;
+}
+
+/* Ensure all text is visible */
+* {
+  color: inherit;
+}
+
+/* High contrast for important elements */
+.text-muted-foreground {
+  color: #374151 !important;
+}
+
+.text-gray-500 {
+  color: #6b7280 !important;
+}
+
+.text-gray-600 {
+  color: #4b5563 !important;
+}
+
+/* Ensure buttons are visible */
+.bg-orange-600 {
+  background-color: #ea580c !important;
+  color: white !important;
+}
+
+.hover\:bg-orange-700:hover {
+  background-color: #dc2626 !important;
+}
+
+/* Card styling for better visibility */
+.border {
+  border-color: #d1d5db !important;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+} 
